@@ -12,7 +12,7 @@ This project was to create a reporting tool that would return information for 3 
 	
     [Vagrant 2.2.5](https://www.vagrantup.com/downloads.html)
 
-2. Download the vagrant setup file provided by udacity and place into the directory where you want your program to run.
+2. Download the vagrant setup file provided by udacity and place into the directory where you want your program to run then run ```vagrant up``` in the terminal to start the virtual machine. Once it has started use ```vagrant ssh``` to log into the virtual machine. 
 
 3. Download [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and place inside the same directory as the vagrant file.
 
