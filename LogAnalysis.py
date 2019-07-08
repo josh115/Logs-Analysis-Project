@@ -1,11 +1,17 @@
 #!/usr/bin/env python2.7
 
 import psycopg2
+import sys
 
 
 def main():
     # Connect to database
-    db = psycopg2.connect("dbname=news")
+    try:
+        db = psycopg2.connect("dbname=news")
+    except psycopg2.OperationalError as error:
+        print(error)
+        sys.exit(1)
+
     c = db.cursor()
 
     # Question 1
