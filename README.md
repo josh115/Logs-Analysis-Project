@@ -20,7 +20,7 @@ The 3 questions were:
 	
     [Vagrant 2.2.5](https://www.vagrantup.com/downloads.html)
 
-2. Once you have installed the above download or use git clone [fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) into your chosen directory so that python and postgreSQL will be automatically be installed when your vagrant server is ran.
+2. Once you have installed the above download or use git clone to install [fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) into your chosen directory so that python and postgreSQL will be automatically be installed when your vagrant server is ran.
 
 3. Navigate to the fullstack-nanodegree-vm directory then run ```vagrant up``` in the terminal to start the virtual machine. Once it has started use ```vagrant ssh``` to log into the virtual machine. 
 
