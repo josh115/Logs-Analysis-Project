@@ -30,4 +30,4 @@ The 3 questions were:
 
 6. Now go back onto your terminal and change directory to the vagrant directory by using ```cd /vagrant``` and then run the command ```psql -d news -f newsdata.sql``` to load the tables and data into the news database.
 
-7. Now in the terminal run ```python LogAnalysis.py``` to run the python script and it should display the questions and answers.
+7. Now in the terminal run ```python LogAnalysis.py``` to run the python script and it should display the questions and answers as shown in the output.txt file.
